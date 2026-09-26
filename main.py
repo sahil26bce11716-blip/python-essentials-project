@@ -1,8 +1,6 @@
-# Module 1: Student Details
 name = input("Enter student name: ")
 roll_no = input("Enter roll number: ")
 
-# Module 2: Marks and Percentage Calculation
 print("\nEnter marks out of 100:")
 
 maths = float(input("Maths: "))
@@ -12,7 +10,6 @@ english = float(input("English: "))
 total = maths + python + english
 percentage = total / 3
 
-# Module 3: Grade and Result Display
 if percentage >= 90:
     grade = "A+"
 elif percentage >= 80:
